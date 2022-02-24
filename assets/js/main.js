@@ -1,6 +1,10 @@
 let catImg = document.getElementById('cat')
 console.log(catImg);
 
+catImg.style.transform = 'scaleX(-1)'
+catImg.style.transform = 'scaleX(1)'
+
+
 let cat
 let catPos = 0;
 var speed = 300;
@@ -48,5 +52,3 @@ function catSpeed() {
 function pause() {
     clearInterval(cat);
 }
-
-// document.body.addEventListener(keypress)
