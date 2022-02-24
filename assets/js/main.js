@@ -31,7 +31,7 @@ function catWalk() {
             console.log('cat walks to the right')
             catImg.style.left = `${catPos}px`
         }
-    }, 300);
+    }, 150);
 }
 
 function catSpeed() {
@@ -46,7 +46,7 @@ function catSpeed() {
             console.log('cat walks to the right')
             catImg.style.left = `${catPos}px`
         }
-    }, 50)
+    }, 30)
 }
 
 function pause() {
