@@ -45,8 +45,8 @@ function catSpeed() {
     }, 50)
 }
 
-// function pause() {
-//     clearInterval(cat);
-// }
+function pause() {
+    clearInterval(cat);
+}
 
 // document.body.addEventListener(keypress)
